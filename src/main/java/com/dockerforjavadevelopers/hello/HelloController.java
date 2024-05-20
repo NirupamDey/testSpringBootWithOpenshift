@@ -9,7 +9,7 @@ public class HelloController {
     
     @RequestMapping("/")
     public String index() {
-        return "Hello from to the World of Openshift\n";
+        return "Hello from Nirupam to the World of Openshift\n";
     }
     
 }

@@ -10,7 +10,7 @@ public class HelloController {
     @RequestMapping("/")
     public String index() {
         Properties p = System.getProperties();
-        String businessName = p.getProperty("businessName")); //property to get system
+        String businessName = p.getProperty("businessName"); //property to get system
         return "Hello from Nirupam to the World of Openshift with business name ";
     }
     
